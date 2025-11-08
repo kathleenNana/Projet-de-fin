@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MANIOC D'OR</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- barre de navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-danger">
+      <div class="container-fluid">
+        <img src="images/logo.png" width="70" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#processus"
+                >Processus de transformation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#nosproduits">Produits finis</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-warning">Contactez-nous</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section hero -->
+    <section
+      class="hero d-flex justify-content-center align-items-center text-center text-white"
+    >
+      <div>
+        <p class="h1 fw-bold">
+          Du champ à la table, le meilleur du manioc ivoirien
+        </p>
+        <p class="h5 mb-4">
+          Découvrez nos produits authentiques, naturels et savoureux, issus d'un
+          savoir-faire traditionnel.
+        </p>
+        <a href="#nosproduits" class="btn btn-warning"
+          >Découvrir nos produits</a
+        >
+      </div>
+    </section>
+
+    <!-- section A propos -->
+    <section id="apropos">
+      <div class="container my-5">
+        <p
+          class="h1 fw-bold text-center mb-4 text-uppercase"
+          style="color: #b8860b; font-weight: bold"
+        >
+          A propos de nous
+        </p>
+        <div class="row d-flex f-start align-items-center">
+          <div class="col-md-6 position-relative">
+            <h3 class="fw-bold display-6 d-lg-flex flex-row mb-4">
+              <span class="position-absolue" style="color: #5a4a1e"
+                >Notre histoire
+              </span>
+            </h3>
+            <p class="h6 position" style="color: #5a4a1e">
+              Passionnée par les richesses locales, nous avons créé Manioc d’Or
+              pour transformer le manioc en produits de qualité tout en
+              valorisant le savoir-faire ivoirien.
+            </p>
+            <h3 class="fw-bold display-6 d-lg-flex flex-row mb-4">
+              <span class="position-absolue" style="color: #5a4a1e"
+                >Notre mission
+              </span>
+            </h3>
+            <p class="h6 position" style="color: #5a4a1e">
+              Promouvoir la filière manioc et soutenir les producteurs locaux à
+              travers une transformation responsable et innovante.
+            </p>
+            <h3 class="fw-bold display-6 d-lg-flex flex-row mb-4">
+              <span class="position-absolue" style="color: #5a4a1e"
+                >Nos valeurs
+              </span>
+            </h3>
+            <p class="h6 position" style="color: #5a4a1e">
+              Qualité – Authenticité – Durabilité – Tradition – Innovation 🌾
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/apropos.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section processus de transformation -->
+
+    <section id="processus" class="container my-5">
+      <p
+        class="h1 fw-bold text-center text-uppercase"
+        style="color: #b8860b; font-weight: bold"
+      >
+        Processus de transformation
+      </p>
+      <div class="processus">
+        <div class="etape">
+          <img class="ronde" src="images/recolte.jpg" alt="" />
+          <p class="h6">Recolte du manioc</p>
+        </div>
+        <div class="etape">
+          <img class="ronde" src="images/lavage.jpg" alt="" />
+          <p class="h6">Epluchage et lavage du manioc</p>
+        </div>
+        <div class="etape">
+          <img class="ronde" src="images/fermentation.jpg" alt="" />
+          <p class="h6">Fermentation du manioc</p>
+        </div>
+        <div class="etape">
+          <img class="ronde" src="images/transformation.jpg" alt="" />
+          <p class="h6">Transformation du manioc</p>
+        </div>
+      </div>
+    </section>
+    <!-- fin processus de transformation -->
+
+    <!-- section menu py signifie padding haut et bas-->
+    <!-- nos produits -->
+    <section
+      id="nosproduits"
+      class="container my-5 menu justify-content-center align-items-center text-center"
+    >
+      <p
+        class="text-center mb-4 h3 fw-bold text-uppercase"
+        style="color: #b8860b; font-weight: bold"
+      >
+        Produits finis
+      </p>
+      <div class="container">
+      <div class="row d-flex align-items-stretch">
+        <!-- colonne 1 -->
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100">
+            <img src="images/attieke.png" class="card-img-top" alt="" />
+            <div class="card-body">
+            <h4 class="text-center fw-bold" style="color: #5a4a1e">
+              Attiéké – Manioc d’Or
+            </h4>
+            <p class="h6" style="color: #5a4a1e">
+              Un attiéké finement granulé, 🥥 100 % naturel, préparé avec soin à
+              partir de manioc sélectionné pour son goût authentique et sa
+              texture parfaite.
+            </p>
+            <a href="" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+        </div>
+        <!-- fin colonne 1 -->
+
+        <!-- colonne 2 -->
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100">
+            <!-- apres card-img-top ajouter objectif-fit-cover- style="height: 25vh;" -->
+            <img src="images/placali.png" class="card-img-top" alt="" />
+            <div class="card-body">
+            <h4 class="text-center fw-bold" style="color: #5a4a1e">
+              Placali – Manioc d’Or
+            </h4>
+            <p class="h6" style="color: #5a4a1e">
+              Un placali préparé à partir de manioc fermenté selon la tradition.
+              🥥 100 % naturel – sans additifs – riche en saveur et en
+              authenticité.
+            </p>
+            <a href="" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+        </div>
+        <!-- fin colonne 2 -->
+
+        <!-- colonne 3 -->
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100">
+            <img src="images/gari.png" class="card-img-top" alt="" />
+            <div class="card-body">
+            <h4 class="text-center fw-bold" style="color: #5a4a1e">
+              Gari – Manioc d’Or
+            </h4>
+            <p class="h6" style="color: #5a4a1e">
+              Une semoule de manioc finement torréfiée, au goût authentique et
+              croustillant. 🥥 100 % naturel et savoureux, parfait pour vos
+              repas équilibrés.
+            </p>
+            <a href="" class="btn btn-warning">En savoir plus</a>
+          </div>
+        </div>
+        </div>
+        <!-- fin colonne 3 -->
+      </div>
+    </section>
+    <!-- bouton acheter -->
+    <section id="contact" class="text-center mb-5">
+      <div class="container my-5">
+        <div class="row">
+          <div class="acheter">
+            <p class="h5 fw-bold" style="color: #5a4a1e">
+              Prêt à goûter la différence ? Cliquez sur le bouton pour acheter
+              nos produits maintenant.
+            </p>
+            <button class="btnacheter w-50">Passez votre commande dès maintenant</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin nos produits -->
+
+    <!--section contact / devenir partenaire -->
+
+    <section
+      id="contact"
+      class="py-5"
+      style="background: linear-gradient(135deg, #fff7e6, #ffefc4)"
+    >
+      <div class="container">
+        <h2
+          class="text-center mb-4 text-uppercase"
+          style="color: #b8860b; font-weight: bold"
+        >
+          Contact / Devenir partenaire
+        </h2>
+
+        <div class="row">
+          <!-- Formulaire de contact -->
+          <div class="col-md-6 mb-4">
+            <form>
+              <div class="mb-3">
+                <label for="nom" class="form-label fw-bold">Nom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nom"
+                  placeholder="Entrez votre nom"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Entrez votre email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="sujet" class="form-label fw-bold">Sujet</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="sujet"
+                  placeholder="Objet de votre message"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label fw-bold">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Votre message..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-warning w-100 fw-bold"
+                style="font-weight: bold; color: white"
+              >
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+
+          <!-- Coordonnées -->
+          <div
+            class="col-md-6 text-center d-flex flex-column justify-content-center"
+          >
+            <h5 class="text-uppercase mb-3" style="color: #b8860b">
+              Nos coordonnées
+            </h5>
+            <p><strong>Adresse :</strong> Abidjan, Côte d’Ivoire</p>
+            <p><strong>Téléphone :</strong> +225 07 00 00 00</p>
+            <p><strong>Email :</strong> contact@maniocdor.ci</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.1058298508146!2d-4.0120848260314945!3d5.400844635192518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1950a67578be5%3A0x6453534198b32679!2sEcole%20Primaire%20Innovateur!5e0!3m2!1sfr!2sci!4v1762615090504!5m2!1sfr!2sci" width="100%"  height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pied de page -->
+    <section class="pied">
+      <footer class="bg-dark py-4">
+        <div class="container text-center">
+          <p class="mb-3">Suivez-nous sur les réseaux sociaux</p>
+          <div class="d-flex justify-content-center gap-4 mb-3">
+            <a href="#" class="text-light fs-4"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-light fs-4"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-light fs-4"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="text-light fs-4"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+          <p>Plan du site | Politique de confidentialité</p>
+          <p class="small mb-0">
+            &copy; 2025 Manioc d'Or | Tous droits réservés.
+          </p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
+
+<!-- <footer class="pied">
+    <p>
+    &copy; 2025 Les Delices d'Anca| Tous droits réservés
+    </p>
+    <p class="align-items-stretch">
+        Facebook|
+        Instagram|
+    </p>
+   </footer> -->
+
+<!-- <div class="container"></div>
+        <div class="row"></div>
+        <!-- colonne image -->
+<!-- <div class="col-md-12">
+    <div class="hero">
+    <img src="images/hero.jpg" class="img-fluid" alt="">
+    </div>*/ -->
